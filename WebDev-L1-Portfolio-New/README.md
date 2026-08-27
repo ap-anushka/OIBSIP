@@ -1,62 +1,34 @@
 # Personal Portfolio Website
 
-## Oasis Infobyte Web Development Internship
+## Oasis Infobyte Web Development Internship — Level 1, Task 2
 
-This project is **Task 2** of my Web Development and Designing Internship at Oasis Infobyte.
+A professional, responsive portfolio website showcasing my profile, skills, projects and contact links.
 
-## About the Project
-
-This is a personal portfolio website created to showcase my educational background, technical skills, projects, and contact information.
-
-The website is designed with a clean, simple, and responsive layout that works across different screen sizes.
-
-## Technologies Used
-
+### Technologies
 - HTML5
 - CSS3
 - Flexbox
 - CSS Grid
 - Responsive Web Design
 
-## Features
+### Features
+- Name, role and avatar
+- About Me
+- Skills
+- Two project cards
+- GitHub project links
+- Email, LinkedIn and GitHub contact links
+- Smooth-scroll navigation
+- Responsive desktop and mobile design
+- Consistent typography and layout
 
-- Responsive navigation bar
-- Home/Hero section
-- About Me section
-- Skills section
-- Projects section
-- Contact section
-- GitHub profile link
-- LinkedIn profile link
-- Smooth scrolling navigation
-- Mobile responsive design
-- Footer
-
-## Projects
-
-### 1. Hospital Management System
-
-A web-based hospital management system designed to manage patients, doctors, appointments, wards, and billing information.
-
-**Technologies Used:**
-- HTML
-- CSS
-- PHP
-- MySQL
-
-### 2. TechNova Landing Page
-
-A responsive landing page created as Task 1 of my Oasis Infobyte Web Development Internship.
-
-**Technologies Used:**
-- HTML
-- CSS
-
-## Project Structure
-
+### Project Structure
 ```text
-WebDev-L1-Portfolio/
-│
+WebDev-L1-Portfolio-New/
 ├── index.html
 ├── style.css
 └── README.md
+```
+
+### GitHub Repository
+https://github.com/anushkapandey4561-AP/OIBSIP
