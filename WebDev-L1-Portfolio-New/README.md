@@ -29,6 +29,3 @@ WebDev-L1-Portfolio-New/
 ├── style.css
 └── README.md
 ```
-
-### GitHub Repository
-https://github.com/anushkapandey4561-AP/OIBSIP
