@@ -1,16 +1,24 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Anushka Pandey - MCA student and web developer portfolio">
-    <title>Anushka Pandey | Web Developer Portfolio</title>
+
+    <title>Anushka Pandey | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<header class="site-header">
-    <nav class="navbar" aria-label="Main navigation">
-        <a class="logo" href="#home">Anushka Pandey</a>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Anushka.</div>
+
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -19,88 +27,224 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-</header>
 
-<main>
-<section id="home" class="hero">
-    <div class="hero-content">
-        <div class="profile-avatar" role="img" aria-label="Anushka Pandey avatar">AP</div>
-        <p class="eyebrow">Hello, I'm</p>
-        <h1>Anushka Pandey</h1>
-        <h2>MCA Student | Web Developer</h2>
-        <p class="hero-text">I build practical, responsive and user-friendly web applications while continuously improving my software development skills.</p>
-        <div class="hero-buttons">
-            <a class="btn" href="#projects">View My Projects</a>
-            <a class="btn btn-outline" href="#contact">Contact Me</a>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+                <p class="hello">Hello, I'm</p>
+
+                <h1>Anushka Pandey</h1>
+
+                <h2>Web Development Intern</h2>
+
+                <p class="hero-description">
+                    I am passionate about web development and enjoy creating
+                    clean, responsive, and user-friendly websites.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <img src="girl-avatar.png" alt="Profile Avatar">
+                </div>
+            </div>
+
         </div>
-    </div>
-</section>
 
-<section id="about" class="section">
-    <div class="section-heading">
-        <p class="section-label">Get to know me</p>
-        <h2>About Me</h2>
-    </div>
-    <div class="about-card">
-        <p>I am an MCA student at Deen Dayal Upadhyaya Gorakhpur University with an interest in web development and software development.</p>
-        <p>I enjoy learning new technologies and building projects that strengthen my programming, problem-solving and development skills.</p>
-    </div>
-</section>
+    </section>
 
-<section id="skills" class="section section-light">
-    <div class="section-heading">
-        <p class="section-label">What I work with</p>
-        <h2>My Skills</h2>
-    </div>
-    <div class="skills-grid">
-        <article class="skill-card"><h3>Java</h3><p>Object-oriented programming and application development.</p></article>
-        <article class="skill-card"><h3>C</h3><p>Programming fundamentals and problem solving.</p></article>
-        <article class="skill-card"><h3>HTML</h3><p>Structured and accessible web pages.</p></article>
-        <article class="skill-card"><h3>CSS</h3><p>Responsive and attractive web design.</p></article>
-        <article class="skill-card"><h3>PHP</h3><p>Dynamic web application development.</p></article>
-        <article class="skill-card"><h3>MySQL</h3><p>Relational database management.</p></article>
-    </div>
-</section>
 
-<section id="projects" class="section">
-    <div class="section-heading">
-        <p class="section-label">My work</p>
-        <h2>Projects</h2>
-    </div>
-    <div class="projects-grid">
-        <article class="project-card">
-            <span class="project-number">01</span>
-            <h3>Hospital Management System</h3>
-            <p>A web-based system for managing patients, doctors, appointments, wards and billing.</p>
-            <p class="tech">HTML · CSS · PHP · MySQL</p>
-            <a class="project-link" href="https://github.com/anushkapandey4561-AP/OIBSIP" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
-        </article>
-        <article class="project-card">
-            <span class="project-number">02</span>
-            <h3>TechNova Landing Page</h3>
-            <p>A responsive landing page created as Task 1 of the Oasis Infobyte Web Development Internship.</p>
-            <p class="tech">HTML · CSS</p>
-            <a class="project-link" href="https://github.com/anushkapandey4561-AP/OIBSIP" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
-        </article>
-    </div>
-</section>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-<section id="contact" class="section contact-section">
-    <div class="section-heading">
-        <p class="section-label">Let's connect</p>
-        <h2>Contact Me</h2>
-    </div>
-    <p class="contact-intro">I would love to connect regarding web development and software development opportunities.</p>
-    <div class="contact-links">
-        <a href="mailto:anushkapandey4561@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/anushka-pandey-cse/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/anushkapandey4561-AP" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-</section>
-</main>
+        <h2 class="section-title">About Me</h2>
 
-<footer>
-    <p>© 2026 Anushka Pandey. All Rights Reserved.</p>
-</footer>
+        <div class="about-content">
+
+            <p>
+                Hello! My name is Anushka Pandey. I am a passionate learner
+                interested in web development, programming, and technology.
+            </p>
+
+            <p>
+                I enjoy building responsive and visually appealing websites
+                using HTML and CSS. I am continuously improving my skills by
+                working on practical projects.
+            </p>
+
+            <p>
+                My goal is to become a skilled developer and create useful
+                digital experiences that are simple, modern, and user-friendly.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML5</h3>
+                <p>Creating structured and semantic web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS3</h3>
+                <p>Designing responsive and attractive websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Learning interactive and dynamic web development.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>GitHub</h3>
+                <p>Managing and sharing projects using GitHub.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <span>Project 01</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Landing Page</h3>
+
+                    <p>
+                        A modern and responsive landing page created using
+                        HTML and CSS with a clean user interface.
+                    </p>
+
+                    <a href="#" class="project-btn">View Project →</a>
+                </div>
+
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <span>Project 02</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive personal portfolio website showcasing
+                        my skills, projects, and contact information.
+                    </p>
+
+                    <a href="#" class="project-btn">View Project →</a>
+                </div>
+
+            </div>
+
+
+            <!-- Project 3 -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <span>Coming Soon</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Future Project</h3>
+
+                    <p>
+                        More exciting projects will be added here as I continue
+                        my web development journey.
+                    </p>
+
+                    <a href="#" class="project-btn">Coming Soon →</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="contact-text">
+            Feel free to contact me for collaboration, projects, or any
+            opportunities related to web development.
+        </p>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+                <h3>👤 Name</h3>
+                <p>Anushka Pandey</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📧 Email</h3>
+                <p>anushkapandey4561@gmail.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>💻 GitHub</h3>
+                <p>github.com/ap-anushka</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Anushka Pandey</h3>
+
+        <p>Web Development Portfolio</p>
+
+        <p class="copyright">
+            © 2026 Anushka Pandey. All Rights Reserved.
+        </p>
+
+    </footer>
+
 </body>
 </html>
