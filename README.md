@@ -19,8 +19,8 @@ This repository contains the projects and tasks completed during the Web Develop
 ### Level 1 / Task 2: Portfolio Website
 
 - **Description:** A personal portfolio website highlighting bio, skill sets, project showcase, and a contact form.
-- **Repository / Code:** [Task 2 Source Code](https://github.com/ap-anushka/OIBSIP/tree/main/WebDev-L1-PersonalPortfolio)
-- **Live Demo:** [Task 2 Live Demo](https://ap-anushka.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/)
+- **Repository / Code:** [Task 2 Source Code](https://github.com/ap-anushka/OIBSIP/tree/main//WebDev-L1-Portfolio-New)
+- **Live Demo:** [Task 2 Live Demo](https://ap-anushka.github.io/OIBSIP//WebDev-L1-Portfolio-New/)
 
 ### Level 1 / Task 3: Temperature Converter Website
 
